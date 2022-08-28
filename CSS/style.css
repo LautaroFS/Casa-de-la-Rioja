@@ -82,24 +82,28 @@ header nav div h1 {
     grid-area: section1;
 }
 
-.section2 {
+.section2{
     border: solid black 2px;
-    background-color: rgb(175, 175, 175);
-    grid-area: section2;
-    height: 17rem;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(179, 179, 179);
+}
+
+.section2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid black 0.5px;
+    margin: 0.5rem;
     border-radius: 6px;
 }
 
-.section2 ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 1rem;
-}
-
-
-.section2 ul li a {
-    color: black;
+.imagenNot{
+    height: 12rem;
+    width: 19rem;
 }
 
 .imagen{
